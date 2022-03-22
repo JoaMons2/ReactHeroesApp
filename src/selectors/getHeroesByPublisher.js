@@ -2,8 +2,12 @@ import { heroes } from "../data/heroes"
 
 
 
-export const getHeroById = ( id = '') => {
-    console.log('getHeroById called');
+export const getHeroesByName = (name = '') => {
 
-    return heroes.find( hero => hero.id === id);
+    //name = name.toLowerCase();
+
+    //return heroes.filter(hero => hero.name.toLowerCase().includes(name));
+
+    return [...heroes];
+
 }
