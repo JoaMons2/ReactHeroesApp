@@ -3,14 +3,14 @@ import { Link, NavLink, useNavigate } from 'react-router-dom'
 
 export const Navbar = () => {
 
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
-    const handleLogout = () => {
-        // TODO: Por hacer
-        navigate('login', {
-            replace: true
-        })
-    }
+    // const handleLogout = () => {
+    //     // TODO: Por hacer
+    //     navigate('login', {
+    //         replace: true
+    //     })
+    // }
     return (
         <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
             
